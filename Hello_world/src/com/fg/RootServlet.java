@@ -23,6 +23,7 @@ public class RootServlet extends HttpServlet {
 		// get access to the values
 		String text_input = req.getParameter("text_input");
 		String date_of_birth = req.getParameter("datetime_input");
+		String decimal =req.getParameter("decimal_input");
 		
 		// print values to the console to if they were retrieved correctly
 		System.out.println("*****************");
