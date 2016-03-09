@@ -5,14 +5,11 @@ xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<servlet>
-		<servlet-name>CSPAssignment01</servlet-name>
-		<servlet-class>com.fred.CSPAssignment01Servlet</servlet-class>
+		<servlet-name>Root</servlet-name>
+		<servlet-class>com.fred.RootServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>CSPAssignment01</servlet-name>
-		<url-pattern>/cspassignment01</url-pattern>
-	</servlet-mapping>
-	<welcome-file-list>
-		<welcome-file>index.html</welcome-file>
-	</welcome-file-list>
+		<servlet-name>Root</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>	
 </web-app>
