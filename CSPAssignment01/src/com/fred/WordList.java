@@ -27,6 +27,11 @@ public class WordList {
 		return strings.size();
 	}
 
+	// returns word's index position in a list
+	public String getWord(final int index){
+		return strings.get(index);
+	}
+	
 	// getter and setter for Key id
 	public Key getId() { return id;	}
 	public void setId(Key id) { this.id = id;}
