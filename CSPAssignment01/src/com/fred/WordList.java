@@ -31,7 +31,12 @@ public class WordList {
 	public String getWord(final int index){
 		return strings.get(index);
 	}
-	
+
+	// add word method
+	public void addWord(final String word){
+		strings.add(word);
+	}
+
 	// getter and setter for Key id
 	public Key getId() { return id;	}
 	public void setId(Key id) { this.id = id;}
