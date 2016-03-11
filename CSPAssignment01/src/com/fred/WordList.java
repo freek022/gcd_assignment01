@@ -15,17 +15,22 @@ public class WordList {
 	private Key id;
 	@Persistent
 	private ArrayList<String> strings;
-	
+
 	// constructor
 	public WordList(Key id, ArrayList<String> strings){
 		this.id = id;
 		this.strings = strings;
 	}
-	
+
+	// word count method, returns number of words in a list
+	public int wordCount(){
+		return strings.size();
+	}
+
 	// getter and setter for Key id
 	public Key getId() { return id;	}
 	public void setId(Key id) { this.id = id;}
-	
+
 	// getter and setter for strings list
 	public ArrayList<String> getStrings() { return strings;	}
 	public void setStrings(ArrayList<String> strings) {
